@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/my_page_background">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding = "20dp"
+            android:layout_centerInParent="true">
+        <Button
+                android:background="@drawable/my_page_button"
+                android:text="밥바 사용설명서"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/button1"
+                android:textSize="18sp"/>
+        <Button
+                android:background="@drawable/my_page_button"
+                android:text="초기 설정 다시하기"
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content" android:id="@+id/button2"
+                android:textSize="18sp"/>
+        <Button
+                android:background="@drawable/my_page_button"
+                android:text="식단 변경"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/button3"
+                android:textSize="18sp"/>
+    </LinearLayout>
+</RelativeLayout>
